@@ -1,4 +1,4 @@
-function legitChecker() {
+function messageVerifier() {
     let messageToVerify = prompt('Enter a message to verify.')
 
     if ((messageToVerify.indexOf('FR') >= 0) && (messageToVerify.indexOf('AI') >= 0 )) {
@@ -14,6 +14,6 @@ function legitChecker() {
     }
 
         else {
-        document.getElementById('result').innerHTML = `The message ${messageToVerify} yet to be encoded... Try again next time! TnT`;
+        document.getElementById('result').innerHTML = `The message ${messageToVerify} yet to be encoded... Try again next time!`;
     }
 }
